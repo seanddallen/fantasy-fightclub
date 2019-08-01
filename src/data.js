@@ -12,7 +12,7 @@ export const strengths = ["fly", "invisible", "xray vision", "flamethrower", "sh
 export const weaknesses = ["so tired", "obese", "stupid", "too nice", "very gullible", "drunk", "immobile", "extremely slow", "cant lift anything", "narcoleptic", "damaged by water", "made weak by sunlight", "powers take 30sec to start", "blind", "easily fatigued", "elderly", "no arms", "can't look directly at anyone else", "trip often", "cant stop sneezing", "seeing hallucinations", "terrible aim", "crippling fear of heights", "damaged by loud noises", "can only see for 10ft", "extremely unlucky", "half the size"]
 
 
-export const locations = ["desert", "beach", "downtown", "forest"]
+export const locations = ["desert", "beach", "downtown", "forest", "hospital", "golf course", "Antarctica", "mountaintop", "rainforest", "apartment complex", "park", "cave", "ocean underwater", "moon", "in space", "library", "zoo", "deserted island", "university", "mall", "farm", "subway station", "airport", "amusement park", "gym", "stadium", "on a boat", "hardware store", "restaurant", "walmart", "ancient cathedral", "African jungle", "Grand Canyon", "haunted house", "cornfield"]
 
 
 export const scenarios = ["At Senior Prom", "Surrounded by Bees", "in a tornado", "skydiving"]
