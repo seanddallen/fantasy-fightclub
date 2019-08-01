@@ -75,9 +75,6 @@ class App extends React.Component {
         </div>
         <div className="d-flex flex-column radios">
           <ButtonGroup toggle className="mt-3">
-            <ToggleButton className="mx-2 radio" onClick={this.handleRadioChange} type="radio" name="radio" defaultChecked value="1">
-              All
-            </ToggleButton>
             <ToggleButton className="mx-2 radio" onClick={this.handleRadioChange} type="radio" name="radio" value="2">
               Human
             </ToggleButton>
@@ -86,6 +83,9 @@ class App extends React.Component {
             </ToggleButton>
             <ToggleButton className="mx-2 radio" onClick={this.handleRadioChange} type="radio" name="radio" value="4">
               Superhuman
+            </ToggleButton>
+            <ToggleButton className="mx-2 radio" onClick={this.handleRadioChange} type="radio" name="radio" defaultChecked value="1">
+              All
             </ToggleButton>
           </ButtonGroup>
         </div>
