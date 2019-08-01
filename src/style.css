@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-row {
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: -40px;
+}
+
+.nav {
+    width: 100vw;
+    margin-bottom: -10px;
+    background-color: #fff !important;
+}
+
+.radios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.radio {
+    width: 200px;
+    border: solid 4px !important;
+    border-radius: 12px !important;
+    background-color: black !important;
+
+}
